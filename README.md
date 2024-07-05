@@ -12,13 +12,15 @@ utilizando el framework Flutter
 
 Asegúrate de tener las siguientes herramientas instaladas:
 
-- [Flutter](https://flutter.dev/docs/get-started/install) (versión 2.0 o superior)
+- [Flutter](https://flutter.dev/docs/get-started/install) (versión 3.22.0 o superior)
 - [Dart](https://dart.dev/get-dart)
 - [Android Studio](https://developer.android.com/studio) o [Visual Studio Code](https://code.visualstudio.com/) con las extensiones de Flutter y Dart
 - Emulador o dispositivo físico para pruebas
 
 
 ## Instalación
+
+:warning: Considerar utilizar la version 3.22.0 de flutter o superior. :warning:
 
 1. Clonar el repositorio:
 
@@ -40,6 +42,8 @@ Asegúrate de tener las siguientes herramientas instaladas:
    ```sh
    flutter run
    ```
+
+:tada: Listo a disfrutar! 
 
 ## Screenshot (capturas)
 
@@ -137,6 +141,6 @@ lib/
 
 
 
-## Inspiracion del diseño
+## Inspiracion del diseño :speak_no_evil:
 
 <img src="./images/inspiration.png" alt="Inspiracion" width="400" style="display: block; margin: 0 auto;"/>
