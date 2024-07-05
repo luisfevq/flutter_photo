@@ -145,10 +145,14 @@ class _Body extends StatelessWidget {
             ),
           );
         } else if (state is PhotoFailure) {
-          return Center(
-            child: Text(
-              state.message,
-              textAlign: TextAlign.center,
+          return Padding(
+            padding: const EdgeInsets.all(22),
+            child: Center(
+              child: Text(
+                state.message,
+                textAlign: TextAlign.center,
+                style: Theme.of(context).textTheme.titleLarge,
+              ),
             ),
           );
         } else {

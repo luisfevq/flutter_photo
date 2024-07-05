@@ -32,7 +32,9 @@ class PhotoApiImpl implements PhotoDatasource {
         statusCode: 0,
       );
     } catch (e) {
-      throw Exception();
+      throw Exception(
+        "Error, no se pudo obtener la información.",
+      );
     }
   }
 }

@@ -63,7 +63,10 @@ class ItemListWidget extends StatelessWidget {
                 child: Image.network(
                   url,
                   fit: BoxFit.cover,
-                  loadingBuilder: (context, child, loadingProgress) {
+                  frameBuilder: (_, child, frame, __) {
+                    return child;
+                  },
+                  loadingBuilder: (_, child, loadingProgress) {
                     if (loadingProgress == null) {
                       return child;
                     } else {

@@ -30,4 +30,24 @@ class PhotoModel extends PhotoEntity {
         'url': url,
         'thumbnailUrl': thumbnailUrl,
       };
+
+  @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+    return other is PhotoModel &&
+        other.albumId == albumId &&
+        other.id == id &&
+        other.title == title &&
+        other.url == url &&
+        other.thumbnailUrl == thumbnailUrl;
+  }
+
+  @override
+  int get hashCode {
+    return albumId.hashCode ^
+        id.hashCode ^
+        title.hashCode ^
+        url.hashCode ^
+        thumbnailUrl.hashCode;
+  }
 }
