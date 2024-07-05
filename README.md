@@ -30,7 +30,7 @@ Asegúrate de tener las siguientes herramientas instaladas:
 2. Navegar al directorio del proyecto:
 
    ```sh
-   cd omniprotest
+   cd flutter_photo
 
 3. Instalar las dependencias:
 
